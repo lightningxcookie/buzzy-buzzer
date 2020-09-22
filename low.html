@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Low buzzer</title>
+        <style>
+
+            body {
+                background-color: red;
+            }
+        </style>
+
+        <script>
+            var audio = new Audio('bell-low.wav');
+            
+
+            function buzz() {
+                
+                audio.play();
+            }
+            
+        </script>
+    </head>
+
+    <body onload="loadAudio()" onclick="buzz()">
+        
+       
+    </body>
+</html>
